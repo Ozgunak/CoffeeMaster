@@ -12,6 +12,9 @@
 		F0E81D722AC6223C008B562C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D712AC6223C008B562C /* Item.swift */; };
 		F0E81D742AC6223D008B562C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E81D732AC6223D008B562C /* Assets.xcassets */; };
 		F0E81D772AC6223D008B562C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E81D762AC6223D008B562C /* Preview Assets.xcassets */; };
+		F0E81D842AC623E4008B562C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D832AC623E4008B562C /* MenuView.swift */; };
+		F0E81D882AC62655008B562C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D872AC62655008B562C /* RootView.swift */; };
+		F0E81D8A2AC626D6008B562C /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D892AC626D6008B562C /* MainTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		F0E81D712AC6223C008B562C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F0E81D732AC6223D008B562C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0E81D762AC6223D008B562C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0E81D832AC623E4008B562C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F0E81D872AC62655008B562C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F0E81D892AC626D6008B562C /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				F0E81D6D2AC6223C008B562C /* CoffeeMasterApp.swift */,
+				F0E81D7D2AC62392008B562C /* Core */,
 				F0E81D6F2AC6223C008B562C /* ContentView.swift */,
 				F0E81D712AC6223C008B562C /* Item.swift */,
 				F0E81D732AC6223D008B562C /* Assets.xcassets */,
@@ -68,6 +75,64 @@
 				F0E81D762AC6223D008B562C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0E81D7D2AC62392008B562C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F0E81D862AC62633008B562C /* TabBar */,
+				F0E81D852AC6262F008B562C /* Root */,
+				F0E81D812AC623B4008B562C /* Offers */,
+				F0E81D802AC623AD008B562C /* Scan */,
+				F0E81D7F2AC623A0008B562C /* Menu */,
+				F0E81D7E2AC62398008B562C /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F0E81D7E2AC62398008B562C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F0E81D7F2AC623A0008B562C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F0E81D832AC623E4008B562C /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		F0E81D802AC623AD008B562C /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		F0E81D812AC623B4008B562C /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Offers;
+			sourceTree = "<group>";
+		};
+		F0E81D852AC6262F008B562C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F0E81D872AC62655008B562C /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F0E81D862AC62633008B562C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F0E81D892AC626D6008B562C /* MainTabBarView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0E81D702AC6223C008B562C /* ContentView.swift in Sources */,
+				F0E81D8A2AC626D6008B562C /* MainTabBarView.swift in Sources */,
+				F0E81D842AC623E4008B562C /* MenuView.swift in Sources */,
 				F0E81D722AC6223C008B562C /* Item.swift in Sources */,
 				F0E81D6E2AC6223C008B562C /* CoffeeMasterApp.swift in Sources */,
+				F0E81D882AC62655008B562C /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
