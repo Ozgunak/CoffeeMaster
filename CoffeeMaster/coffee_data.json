@@ -1,0 +1,811 @@
+[
+  {
+    "title": "Black",
+    "description": "Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm. And if you want to sound fancy, you can call black coffee by its proper name: cafe noir.",
+    "ingredients": [
+      "Coffee"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/640px-A_small_cup_of_coffee.JPG",
+    "id": 1
+  },
+  {
+    "title": "Latte",
+    "description": "As the most popular coffee drink out there, the latte is comprised of a shot of espresso and steamed milk with just a touch of foam. It can be ordered plain or with a flavor shot of anything from vanilla to pumpkin spice.",
+    "ingredients": [
+      "Espresso",
+      "Steamed Milk"
+    ],
+    "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeLatte.jpg?impolicy=1by1_wide_topcrop_630",
+    "id": 2
+  },
+  {
+    "title": "Americano",
+    "description": "With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water.",
+    "ingredients": [
+      "Espresso",
+      "Hot Water"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg/1280px-Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg",
+    "id": 4
+  },
+  {
+    "title": "Espresso",
+    "description": "An espresso shot can be served solo or used as the foundation of most coffee drinks, like lattes and macchiatos.",
+    "ingredients": [
+      "1oz Espresso"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg",
+    "id": 5
+  },
+  {
+    "title": "Doppio",
+    "description": "A double shot of espresso, the doppio is perfect for putting extra pep in your step.",
+    "ingredients": [
+      "2oz Espresso"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Doppio.jpg/2560px-Doppio.jpg",
+    "id": 6
+  },
+  {
+    "title": "Cortado",
+    "description": "Like yin and yang, a cortado is the perfect balance of espresso and warm steamed milk. The milk is used to cut back on the espresso’s acidity.",
+    "ingredients": [
+      "1oz Espresso",
+      "1oz Steamed Milk"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Caf%C3%A9Cortado%28Tallat%29.jpg",
+    "id": 7
+  },
+  {
+    "title": "Red Eye",
+    "description": "Named after those pesky midnight flights, a red eye can cure any tiresome morning. A full cup of hot coffee with an espresso shot mixed in, this will definitely get your heart racing.",
+    "ingredients": [
+      "Coffee",
+      "Espresso"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Linea_doubleespresso.jpg",
+    "id": 8
+  },
+  {
+    "title": "Galão",
+    "description": "Originating in Portugal, this hot coffee drink is closely related to the latte and cappuccino. Only difference is it contains about twice as much foamed milk, making it a lighter drink compared to the other two.",
+    "ingredients": [
+      "Espresso",
+      "Foamed milk"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Gal%C3%A3o.jpg/1280px-Gal%C3%A3o.jpg",
+    "id": 9
+  },
+  {
+    "title": "Lungo",
+    "description": "A lungo is a long-pull espresso. The longer the pull, the more caffeine there is and the more ounces you can enjoy.",
+    "ingredients": [
+      "Long pulled espresso"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Caff%C3%A8_lungo.JPG",
+    "id": 10
+  },
+  {
+    "title": "Macchiato",
+    "description": "The macchiato is another espresso-based drink that has a small amount of foam on top. It’s the happy medium between a cappuccino and a doppio.",
+    "ingredients": [
+      "Espresso",
+      "Foam"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Caff%C3%A8_Espresso_Macchiato_Schiumato.jpg",
+    "id": 11
+  },
+  {
+    "title": "Mocha",
+    "description": "For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have). The mocha is a chocolate espresso drink with steamed milk and foam.",
+    "ingredients": [
+      "Espresso",
+      "Steamed Milk",
+      "Chocolate"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Mocaccino-Coffee.jpg",
+    "id": 12
+  },
+  {
+    "title": "Ristretto",
+    "description": "Ristretto is an espresso shot. It uses less hot water which creates a sweeter flavor compared to the bitter taste of a traditional shot of espresso or a doppio.",
+    "ingredients": [
+      "Short pulled espresso"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Doppio_ristretto_Chiang_Mai.jpg",
+    "id": 13
+  },
+  {
+    "title": "Flat White",
+    "description": "This Aussie-born drink is basically a cappuccino without the foam or chocolate sprinkle. It’s an espresso drink with steamed milk.",
+    "ingredients": [
+      "Espresso",
+      "Steamed Milk"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Flat_white_coffee_with_pretty_feather_pattern.jpg",
+    "id": 14
+  },
+  {
+    "title": "Affogato",
+    "description": "The affogato is an excuse to enjoy a scoop of ice cream any time of day (and any time of year in my opinion). Served with a scoop of ice cream and a shot of espresso, or two.",
+    "ingredients": [
+      "Espresso",
+      "Ice cream"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Vinoteca%2C_Smithfield%2C_London_%284485849609%29.jpg",
+    "id": 15
+  },
+  {
+    "title": "Café au Lait",
+    "description": "Café au lait is perfect for the coffee minimalist who wants a bit more flavor. Just add a splash of warm milk to your coffee and you’re all set!",
+    "ingredients": [
+      "Coffee",
+      "Steamed Milk"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Latte_art.jpg",
+    "id": 16
+  },
+  {
+    "title": "Irish",
+    "description": "Irish coffee consists of black coffee, whiskey and sugar, topped with whipped cream.",
+    "ingredients": [
+      "Coffee",
+      "Whiskey",
+      "Sugar",
+      "Cream"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Irish_coffee_glass.jpg",
+    "id": 17
+  },
+  {
+    "title": "Guayoyo",
+    "description": "Traditional venezuelan coffee prepared by filtering the ground coffee in a cone of cloth and pouring hot water on top of it. It's prefferably drinked wihout milk nor cream.",
+    "ingredients": [
+      "Coffee",
+      "Traditional",
+      "Hot Water"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/640px-A_small_cup_of_coffee.JPG",
+    "id": 18
+  },
+  {
+    "title": "Cortadito",
+    "description": "Traditional cuban coffee method where a bit of freshly brewed coffee is mixed with sugar to create a highly sugared paste. Then add the rest of the coffee and stir adding milk until a 50/50 ratio is achieved.",
+    "ingredients": [
+      "Coffee",
+      "Traditional",
+      "Sugar",
+      "Milk"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Cuban_coffee-_2013-04-05_14-30.jpg",
+    "id": 19
+  },
+  {
+    "title": "Aguapanela Coffee",
+    "description": "Bring panela and coffee to a boil in a small pan for 30 minutes until panela is melted. Brew your coffee using your favorite brewing technique but add the hot aguapanela instead of hot water. Delicious sweetened coffee is ready.",
+    "ingredients": [
+      "Coffee",
+      "Sweet",
+      "Panela",
+      "Traditional"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Agua_Panela_con_Queso_Fresco_at_La_Puerta_Falsa_%285617496209%29.jpg/640px-Agua_Panela_con_Queso_Fresco_at_La_Puerta_Falsa_%285617496209%29.jpg",
+    "id": 20
+  },
+  {
+    "title": "Cappuccino",
+    "description": "Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot, as well.",
+    "ingredients": [
+      "Espresso",
+      "Steamed Milk",
+      "Foam"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Wet_Cappuccino_with_heart_latte_art.jpg",
+    "id": 735
+  },
+  {
+    "title": "CUPOJOE",
+    "description": "Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot, as well.",
+    "ingredients": [
+      "Espresso",
+      "Steamed Milk",
+      "Foam"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Wet_Cappuccino_with_heart_latte_art.jpg",
+    "id": 3
+  }
+]
+
+[
+    {
+        "title": "Pike Place Roast",
+        "description": "A smooth, well-rounded blend with subtle notes of cocoa and toasted nuts.",
+        "ingredients": [
+            "Coffee"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/Veranda_Blend_Hot.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 1
+    },
+    {
+        "title": "Caffe Americano",
+        "description": "Espresso shots topped with hot water, creating a drink similar to traditional drip coffee but with a distinct flavor profile.",
+        "ingredients": [
+            "Espresso",
+            "Hot Water"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeAmericano.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 2
+    },
+    {
+        "title": "Cappuccino",
+        "description": "Equal parts of espresso, steamed milk, and milk foam, resulting in a velvety, frothy coffee experience.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Foam"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 3
+    },
+    {
+        "title": "Caffe Misto",
+        "description": "A one-to-one ratio of freshly brewed coffee and steamed milk, topped with a thin layer of foam.",
+        "ingredients": [
+            "Coffee",
+            "Steamed Milk"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 4
+    },
+    {
+        "title": "Flat White",
+        "description": "Rich, full-bodied espresso with steamed milk and a small, dense foam on top.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 5
+    },
+    {
+        "title": "Caffe Latte",
+        "description": "Espresso with steamed milk, creating a creamy and milder coffee experience.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeLatte.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 6
+    },
+    {
+        "title": "Mocha",
+        "description": "Espresso with steamed milk, infused with chocolate syrup and topped with whipped cream.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Chocolate Syrup",
+            "Whipped Cream"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 7
+    },
+    {
+        "title": "White Chocolate Mocha",
+        "description": "Espresso with steamed milk and white chocolate sauce, topped with whipped cream.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "White Chocolate Sauce",
+            "Whipped Cream"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 8
+    },
+    {
+        "title": "Caramel Macchiato",
+        "description": "Espresso with steamed milk and vanilla-flavored syrup, topped with caramel drizzle.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Vanilla Syrup",
+            "Caramel Drizzle"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 9
+    },
+    {
+        "title": "Flat White",
+        "description": "Rich, full-bodied espresso with steamed milk and a small, dense foam on top.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 10
+    },
+    {
+        "title": "Cinnamon Dolce Latte",
+        "description": "Espresso with steamed milk and cinnamon dolce syrup, topped with whipped cream and cinnamon sugar.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Cinnamon Dolce Syrup",
+            "Whipped Cream",
+            "Cinnamon Sugar"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 11
+    },
+    {
+        "title": "Espresso",
+        "description": "A strong and concentrated coffee made by forcing hot water through finely-ground coffee beans.",
+        "ingredients": [
+            "Coffee Beans"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 12
+    },
+    {
+        "title": "Espresso Macchiato",
+        "description": "Espresso with a small amount of steamed milk, resulting in a strong coffee flavor with a touch of creaminess.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 13
+    },
+    {
+        "title": "Black Brewed Coffee",
+        "description": "Freshly brewed coffee made from carefully selected coffee beans, served hot.",
+        "ingredients": [
+            "Coffee"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/Veranda_Blend_Hot.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 14
+    },
+    {
+        "title": "Iced Caramel Macchiato",
+        "description": "Espresso with cold milk and vanilla-flavored syrup, topped with caramel drizzle.",
+        "ingredients": [
+            "Espresso",
+            "Cold Milk",
+            "Vanilla Syrup",
+            "Caramel Drizzle",
+            "Ice"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 15
+    },
+    {
+        "title": "Vanilla Latte",
+        "description": "Espresso with steamed milk and vanilla-flavored syrup, topped with a creamy foam.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Vanilla Syrup"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 16
+    },
+    {
+        "title": "Toffee Nut Latte",
+        "description": "Espresso with steamed milk and toffee nut syrup, finished with whipped cream and toffee nut sprinkles.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Toffee Nut Syrup",
+            "Whipped Cream",
+            "Toffee Nut Sprinkles"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 17
+    },
+    {
+        "title": "Peppermint Mocha",
+        "description": "Espresso with steamed milk, peppermint-flavored syrup, and chocolate syrup, topped with whipped cream and chocolate curls.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Peppermint Syrup",
+            "Chocolate Syrup",
+            "Whipped Cream",
+            "Chocolate Curls"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 18
+    },
+    {
+        "title": "Chestnut Praline Latte",
+        "description": "Espresso with steamed milk and chestnut praline syrup, topped with whipped cream and spiced praline crumbs.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Chestnut Praline Syrup",
+            "Whipped Cream",
+            "Spiced Praline Crumbs"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 19
+    },
+    {
+        "title": "Caramel Brulée Latte",
+        "description": "Espresso with steamed milk and caramel brulée sauce, topped with whipped cream and caramel brulée topping.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Caramel Brulée Sauce",
+            "Whipped Cream",
+            "Caramel Brulée Topping"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 20
+    },
+    {
+        "title": "Blonde Caffè Americano",
+        "description": "Espresso shots topped with hot water, creating a drink similar to traditional drip coffee but with a distinct flavor profile.",
+        "ingredients": [
+            "Espresso",
+            "Hot Water"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 21
+    },
+    {
+        "title": "Irish Cream Cold Brew",
+        "description": "Cold brew coffee with Irish cream syrup, topped with vanilla sweet cream cold foam and a dash of cocoa powder.",
+        "ingredients": [
+            "Cold Brew Coffee",
+            "Irish Cream Syrup",
+            "Vanilla Sweet Cream Cold Foam",
+            "Cocoa Powder"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 22
+    },
+    {
+        "title": "Maple Pecan Latte",
+        "description": "Espresso with steamed milk and maple pecan syrup, finished with a sprinkle of maple pecan topping.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Maple Pecan Syrup",
+            "Maple Pecan Topping"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 23
+    },
+    {
+        "title": "Honey Almondmilk Flat White",
+        "description": "Bold ristretto shots of espresso with steamed almond milk and a touch of honey, creating a creamy and nutty coffee.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Almond Milk",
+            "Honey"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 24
+    },
+    {
+        "title": "Coconutmilk Latte",
+        "description": "Espresso with steamed coconut milk, resulting in a smooth and creamy coffee with a hint of coconut flavor.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Coconut Milk"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 25
+    },
+    {
+        "title": "Vanilla Sweet Cream Cold Brew",
+        "description": "Cold brew coffee with vanilla syrup, topped with a float of house-made vanilla sweet cream.",
+        "ingredients": [
+            "Cold Brew Coffee",
+            "Vanilla Syrup",
+            "Vanilla Sweet Cream"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 26
+    },
+    {
+        "title": "Salted Caramel Mocha",
+        "description": "Espresso with steamed milk, mocha sauce, and toffee nut syrup, topped with whipped cream, caramel drizzle, and sea salt sugar topping.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Mocha Sauce",
+            "Toffee Nut Syrup",
+            "Whipped Cream",
+            "Caramel Drizzle",
+            "Sea Salt Sugar"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 27
+    },
+    {
+        "title": "Toasted White Chocolate Mocha",
+        "description": "Espresso with steamed milk and toasted white chocolate mocha sauce, topped with whipped cream and candied cranberry sugar.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Toasted White Chocolate Mocha Sauce",
+            "Whipped Cream",
+            "Candied Cranberry Sugar"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 28
+    },
+    {
+        "title": "Chestnut Praline Frappuccino",
+        "description": "A creamy blend of chestnut praline syrup and milk, topped with whipped cream and spiced praline crumbs.",
+        "ingredients": [
+            "Chestnut Praline Syrup",
+            "Milk",
+            "Whipped Cream",
+            "Spiced Praline Crumbs"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 29
+    },
+    {
+        "title": "Holiday Spice Flat White",
+        "description": "Bold ristretto shots of espresso with steamed milk and a hint of holiday spice, finished with a sprinkle of holiday spice topping.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Holiday Spice",
+            "Holiday Spice Topping"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 30
+    },
+    {
+        "title": "Pepper Nitro with a Jerky Twist",
+        "description": "Nitro cold brew coffee infused with a sweet malted fennel black pepper syrup, finished with a piece of beef jerky.",
+        "ingredients": [
+            "Nitro Cold Brew Coffee",
+            "Malted Fennel Black Pepper Syrup",
+            "Beef Jerky"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 31
+    },
+    {
+        "title": "Honey Almond Cold Brew",
+        "description": "Cold brew coffee with almond milk and a touch of honey, garnished with a honey almond topping.",
+        "ingredients": [
+            "Cold Brew Coffee",
+            "Almond Milk",
+            "Honey",
+            "Honey Almond Topping"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 32
+    },
+    {
+        "title": "Smoked Butterscotch Latte",
+        "description": "Espresso with steamed milk and smoked butterscotch sauce, topped with whipped cream and smoked butterscotch sugar.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Smoked Butterscotch Sauce",
+            "Whipped Cream",
+            "Smoked Butterscotch Sugar"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 33
+    },
+    {
+        "title": "Bakery-Style Brewed Coffee",
+        "description": "Freshly brewed coffee made in a bakery-style, perfect for coffee purists.",
+        "ingredients": [
+            "Coffee"
+        ],
+        "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630",
+        "id": 34
+    },
+    {
+        "title": "Café au Lait",
+        "description": "Coffee with steamed milk, resulting in a milder coffee experience.",
+        "ingredients": [
+            "Coffee",
+            "Steamed Milk"
+        ],
+        "image": "https://example.com/cafe_au_lait.jpg",
+        "id": 35
+    },
+    {
+        "title": "Decaf Pike Place Roast",
+        "description": "A smooth, well-rounded blend with subtle notes of cocoa and toasted nuts, without the caffeine.",
+        "ingredients": [
+            "Decaf Coffee"
+        ],
+        "image": "https://example.com/decaf_pike_place_roast.jpg",
+        "id": 36
+    },
+    {
+        "title": "Flat White",
+        "description": "Rich, full-bodied espresso with steamed milk and a small, dense foam on top.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk"
+        ],
+        "image": "https://example.com/flat_white_2.jpg",
+        "id": 37
+    },
+    {
+        "title": "Irish Coffee",
+        "description": "Hot coffee with a shot of Irish whiskey, sugar, and topped with whipped cream.",
+        "ingredients": [
+            "Coffee",
+            "Irish Whiskey",
+            "Sugar",
+            "Whipped Cream"
+        ],
+        "image": "https://example.com/irish_coffee.jpg",
+        "id": 38
+    },
+    {
+        "title": "Cinnamon Dolce Latte",
+        "description": "Espresso with steamed milk and cinnamon dolce syrup, topped with whipped cream and cinnamon sugar.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Cinnamon Dolce Syrup",
+            "Whipped Cream",
+            "Cinnamon Sugar"
+        ],
+        "image": "https://example.com/cinnamon_dolce_latte_2.jpg",
+        "id": 39
+    },
+    {
+        "title": "Café Mocha",
+        "description": "Espresso with steamed milk and mocha sauce, topped with whipped cream.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Mocha Sauce",
+            "Whipped Cream"
+        ],
+        "image": "https://example.com/cafe_mocha.jpg",
+        "id": 40
+    },
+    {
+        "title": "Hot Chocolate",
+        "description": "Rich, creamy chocolatey goodness topped with whipped cream.",
+        "ingredients": [
+            "Hot Chocolate Mix",
+            "Steamed Milk",
+            "Whipped Cream"
+        ],
+        "image": "https://example.com/hot_chocolate.jpg",
+        "id": 41
+    },
+    {
+        "title": "Café Caramel Macchiato",
+        "description": "Espresso with steamed milk, vanilla syrup, and caramel drizzle.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Vanilla Syrup",
+            "Caramel Drizzle"
+        ],
+        "image": "https://example.com/cafe_caramel_macchiato.jpg",
+        "id": 42
+    },
+    {
+        "title": "Peppermint Hot Chocolate",
+        "description": "Rich hot chocolate infused with peppermint syrup, topped with whipped cream and peppermint sprinkles.",
+        "ingredients": [
+            "Hot Chocolate Mix",
+            "Peppermint Syrup",
+            "Steamed Milk",
+            "Whipped Cream",
+            "Peppermint Sprinkles"
+        ],
+        "image": "https://example.com/peppermint_hot_chocolate.jpg",
+        "id": 43
+    },
+    {
+        "title": "Coconut Mocha",
+        "description": "Espresso with steamed coconut milk and chocolate syrup, topped with whipped cream and toasted coconut flakes.",
+        "ingredients": [
+            "Espresso",
+            "Steamed Coconut Milk",
+            "Chocolate Syrup",
+            "Whipped Cream",
+            "Toasted Coconut Flakes"
+        ],
+        "image": "https://example.com/coconut_mocha.jpg",
+        "id": 44
+    },
+    {
+        "title": "Hot Vanilla",
+        "description": "Steamed milk with vanilla syrup, simple and delightful.",
+        "ingredients": [
+            "Steamed Milk",
+            "Vanilla Syrup"
+        ],
+        "image": "https://example.com/hot_vanilla.jpg",
+        "id": 45
+    }
+]
+
+Hot Coffees
+    Americanos
+        Caffè Americano
+    Brewed Coffees
+        Blonde Roast
+        Pike Place Roast
+        Dark Roast
+        Caffè Misto
+    Cappuccinos
+        Cappuccino
+    Espresso Shots
+        Espresso
+        Espresso Con Panna
+    Flat Whites
+        Flat White
+        Honey Almondmilk Flat White
+    Lattes
+        Pumpkin Spice Latte
+        Oleato™ Caffé
+        Caffè Latte
+        Cinnamon Dolce Latte
+        Starbucks Reserve® Latte
+        Starbucks Reserve® Hazelnut Bianco Latte
+        Starbucks® Blonde Vanilla Latte
+    Macchiatos
+        Apple Crisp Oatmilk Macchiato
+        Caramel Macchiato
+        Espresso Macchiato
+    Mochas
+        Caffè Mocha
+        Starbucks Reserve® Dark Chocolate Mocha
+        White Chocolate Mocha
+Cold Coffees
+    Cold Brews
+        Pumpkin Cream Cold Brew
+        Oleato Golden Foam™ Cold Brew
+        Cinnamon Caramel Cream Cold Brew
+        Chocolate Cream Cold Brew
+        Salted Caramel Cream Cold Brew
+        Starbucks Reserve® Cold Brew
+        Starbucks® Cold Brew Coffee
+        Vanilla Sweet Cream Cold Brew
+        Starbucks® Cold Brew Coffee with Milk
+    Nitro Cold Brews
+        Cinnamon Caramel Cream Nitro Cold Brew
+        Starbucks Reserve® Nitro Cold Brew
+        Nitro Cold Brew
+        Vanilla Sweet Cream Nitro Cold Brew
+    Iced Americano
+        Iced Caffè Americano
+    Iced Coffees
+        Iced Coffee
+        Iced Coffee with Milk
+        Iced Espresso
+    Iced Shaken Espresso
+        Iced Apple Crisp Oatmilk Shaken Espresso
+        Oleato™ Iced Shaken Espresso with Oatmilk and Toffeenut
+        Iced Toasted Vanilla Oatmilk Shaken Espresso
+        Iced Brown Sugar Oatmilk Shaken Espresso
+        Iced Chocolate Almondmilk Shaken Espresso
+        Iced Shaken Espresso
+    Iced Flat Whites
+        Iced Flat White
+        Iced Honey Almondmilk Flat White
+    Iced Lattes
+        Iced Pumpkin Spice Latte
+        Starbucks Reserve® Iced Latte
+        Starbucks Reserve® Iced Hazelnut Bianco Latte
+        Iced Caffè Latte
+        Iced Cinnamon Dolce Latte
+        Iced Starbucks® Blonde Vanilla Latte
+    Iced Macchiatos
+        Iced Apple Crisp Oatmilk Macchiato
+        Iced Caramel Macchiato
+    Iced Mochas
+        Iced White Chocolate Mocha
+        Iced Caffè Mocha
+        Starbucks Reserve® Iced Dark Chocolate Mocha

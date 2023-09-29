@@ -1,0 +1,686 @@
+{
+    "Hot Coffees": {
+        "Americanos": [
+            {
+                "id": 1,
+                "title": "Caffè Americano",
+                "description": "Espresso with hot water.",
+                "ingredients": [
+                    "Espresso",
+                    "Hot Water"
+                ],
+                "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeAmericano.jpg?impolicy=1by1_wide_topcrop_630"
+            }
+        ],
+        "Brewed Coffees": [
+            {
+                "id": 2,
+                "title": "Blonde Roast",
+                "description": "Lightly roasted coffee with mellow flavors.",
+                "ingredients": [
+                    "Coffee"
+                ],
+                "image": "https://globalassets.starbucks.com/digitalassets/products/bev/Veranda_Blend_Hot.jpg?impolicy=1by1_wide_topcrop_630"
+            },
+            {
+                "id": 3,
+                "title": "Pike Place Roast",
+                "description": "Medium-roasted coffee with a smooth balance.",
+                "ingredients": [
+                    "Coffee"
+                ],
+                "image": "https://globalassets.starbucks.com/digitalassets/products/bev/Veranda_Blend_Hot.jpg?impolicy=1by1_wide_topcrop_630"
+            },
+            {
+                "id": 4,
+                "title": "Dark Roast",
+                "description": "Bold and robust coffee with strong flavors.",
+                "ingredients": [
+                    "Coffee"
+                ],
+                "image": "https://globalassets.starbucks.com/digitalassets/products/bev/Veranda_Blend_Hot.jpg?impolicy=1by1_wide_topcrop_630"
+            },
+            {
+                "id": 5,
+                "title": "Caffè Misto",
+                "description": "Half-brewed coffee, half-steamed milk.",
+                "ingredients": [
+                    "Coffee",
+                    "Steamed Milk"
+                ],
+                "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeMisto.jpg?impolicy=1by1_wide_topcrop_630"
+            }
+        ],
+        "Cappuccinos": [
+            {
+                "id": 6,
+                "title": "Cappuccino",
+                "description": "Espresso with equal parts of steamed milk and milk foam.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk",
+                    "Foam"
+                ],
+                "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_Cappuccino.jpg?impolicy=1by1_wide_topcrop_630"
+            }
+        ],
+        "Espresso Shots": [
+            {
+                "id": 7,
+                "title": "Espresso",
+                "description": "A concentrated coffee brewed by forcing hot water through finely-ground coffee beans.",
+                "ingredients": [
+                    "Coffee"
+                ],
+                "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_Espresso_Single.jpg?impolicy=1by1_wide_topcrop_630"
+            },
+            {
+                "id": 8,
+                "title": "Espresso Con Panna",
+                "description": "Espresso topped with whipped cream.",
+                "ingredients": [
+                    "Espresso",
+                    "Whipped Cream"
+                ],
+                "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_EspressoConPanna.jpg?impolicy=1by1_wide_topcrop_630"
+            }
+        ],
+        "Flat Whites": [
+            {
+                "id": 9,
+                "title": "Flat White",
+                "description": "Espresso with steamed milk, creating a velvety and smooth coffee.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk"
+                ],
+                "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630"
+            },
+            {
+                "id": 10,
+                "title": "Honey Almondmilk Flat White",
+                "description": "Espresso with steamed almond milk and a touch of honey.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Almond Milk",
+                    "Honey"
+                ],
+                "image": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_wide_topcrop_630"
+            }
+        ],
+        "Lattes": [
+            {
+                "id": 11,
+                "title": "Pumpkin Spice Latte",
+                "description": "Espresso with steamed milk and pumpkin spice syrup, topped with whipped cream.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk",
+                    "Pumpkin Spice Syrup",
+                    "Whipped Cream"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 12,
+                "title": "Oleato™ Caffé",
+                "description": "Espresso with steamed milk.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 13,
+                "title": "Caffè Latte",
+                "description": "Espresso with steamed milk.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 14,
+                "title": "Cinnamon Dolce Latte",
+                "description": "Espresso with steamed milk and cinnamon dolce syrup, topped with whipped cream and cinnamon sugar.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk",
+                    "Cinnamon Dolce Syrup",
+                    "Whipped Cream",
+                    "Cinnamon Sugar"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 15,
+                "title": "Starbucks Reserve® Latte",
+                "description": "Espresso with steamed milk.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 16,
+                "title": "Starbucks Reserve® Hazelnut Bianco Latte",
+                "description": "Espresso with steamed milk.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 17,
+                "title": "Starbucks® Blonde Vanilla Latte",
+                "description": "Espresso with steamed milk and vanilla syrup.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk",
+                    "Vanilla Syrup"
+                ],
+                "image": "image_url_here"
+            }
+        ],
+        "Macchiatos": [
+            {
+                "id": 18,
+                "title": "Apple Crisp Oatmilk Macchiato",
+                "description": "Espresso with apple crisp oatmilk and caramel drizzle.",
+                "ingredients": [
+                    "Espresso",
+                    "Apple Crisp Oatmilk",
+                    "Caramel Drizzle"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 19,
+                "title": "Caramel Macchiato",
+                "description": "Espresso with steamed milk and vanilla syrup, topped with caramel drizzle.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk",
+                    "Vanilla Syrup",
+                    "Caramel Drizzle"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 20,
+                "title": "Espresso Macchiato",
+                "description": "Espresso shots with a dollop of frothy milk.",
+                "ingredients": [
+                    "Espresso",
+                    "Frothy Milk"
+                ],
+                "image": "image_url_here"
+            }
+        ],
+        "Mochas": [
+            {
+                "id": 21,
+                "title": "Caffè Mocha",
+                "description": "Espresso with steamed milk and mocha sauce, topped with whipped cream.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk",
+                    "Mocha Sauce",
+                    "Whipped Cream"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 22,
+                "title": "Starbucks Reserve® Dark Chocolate Mocha",
+                "description": "Espresso with steamed milk and dark chocolate sauce, topped with whipped cream.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk",
+                    "Dark Chocolate Sauce",
+                    "Whipped Cream"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 23,
+                "title": "White Chocolate Mocha",
+                "description": "Espresso with steamed milk and white chocolate sauce, topped with whipped cream.",
+                "ingredients": [
+                    "Espresso",
+                    "Steamed Milk",
+                    "White Chocolate Sauce",
+                    "Whipped Cream"
+                ],
+                "image": "image_url_here"
+            }
+        ]
+    },
+    "Cold Coffees": {
+        "Cold Brews": [
+            {
+                "id": 24,
+                "title": "Pumpkin Cream Cold Brew",
+                "description": "Cold brew coffee with vanilla syrup, topped with pumpkin cream cold foam and a dusting of pumpkin spice.",
+                "ingredients": [
+                    "Cold Brew Coffee",
+                    "Vanilla Syrup",
+                    "Pumpkin Cream Cold Foam",
+                    "Pumpkin Spice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 25,
+                "title": "Oleato Golden Foam™ Cold Brew",
+                "description": "Cold brew coffee topped with Oleato Golden Foam™, made from oatmilk.",
+                "ingredients": [
+                    "Cold Brew Coffee",
+                    "Oleato Golden Foam™"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 26,
+                "title": "Cinnamon Caramel Cream Cold Brew",
+                "description": "Cold brew coffee with cinnamon dolce syrup, topped with sweet cream cold foam and caramel drizzle.",
+                "ingredients": [
+                    "Cold Brew Coffee",
+                    "Cinnamon Dolce Syrup",
+                    "Sweet Cream Cold Foam",
+                    "Caramel Drizzle"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 27,
+                "title": "Chocolate Cream Cold Brew",
+                "description": "Cold brew coffee with mocha sauce, topped with sweet cream cold foam and mocha drizzle.",
+                "ingredients": [
+                    "Cold Brew Coffee",
+                    "Mocha Sauce",
+                    "Sweet Cream Cold Foam",
+                    "Mocha Drizzle"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 28,
+                "title": "Salted Caramel Cream Cold Brew",
+                "description": "Cold brew coffee with salted caramel syrup, topped with sweet cream cold foam and caramel drizzle.",
+                "ingredients": [
+                    "Cold Brew Coffee",
+                    "Salted Caramel Syrup",
+                    "Sweet Cream Cold Foam",
+                    "Caramel Drizzle"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 29,
+                "title": "Starbucks Reserve® Cold Brew",
+                "description": "A special reserve blend of cold brew coffee.",
+                "ingredients": [
+                    "Cold Brew Coffee"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 30,
+                "title": "Starbucks® Cold Brew Coffee",
+                "description": "Smooth, subtly sweet cold brew coffee.",
+                "ingredients": [
+                    "Cold Brew Coffee"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 31,
+                "title": "Vanilla Sweet Cream Cold Brew",
+                "description": "Cold brew coffee with vanilla syrup, topped with a float of house-made vanilla sweet cream.",
+                "ingredients": [
+                    "Cold Brew Coffee",
+                    "Vanilla Syrup",
+                    "Vanilla Sweet Cream"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 32,
+                "title": "Starbucks® Cold Brew Coffee with Milk",
+                "description": "Smooth, subtly sweet cold brew coffee mixed with milk.",
+                "ingredients": [
+                    "Cold Brew Coffee",
+                    "Milk"
+                ],
+                "image": "image_url_here"
+            }
+        ],
+        "Nitro Cold Brews": [
+            {
+                "id": 33,
+                "title": "Cinnamon Caramel Cream Nitro Cold Brew",
+                "description": "Nitro cold brew coffee with cinnamon dolce syrup, topped with sweet cream cold foam and caramel drizzle.",
+                "ingredients": [
+                    "Nitro Cold Brew Coffee",
+                    "Cinnamon Dolce Syrup",
+                    "Sweet Cream Cold Foam",
+                    "Caramel Drizzle"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 34,
+                "title": "Starbucks Reserve® Nitro Cold Brew",
+                "description": "Nitro cold brew coffee made from a special reserve blend.",
+                "ingredients": [
+                    "Nitro Cold Brew Coffee"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 35,
+                "title": "Nitro Cold Brew",
+                "description": "Smooth, creamy nitro cold brew coffee.",
+                "ingredients": [
+                    "Nitro Cold Brew Coffee"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 36,
+                "title": "Vanilla Sweet Cream Nitro Cold Brew",
+                "description": "Nitro cold brew coffee with vanilla syrup, topped with a float of house-made vanilla sweet cream.",
+                "ingredients": [
+                    "Nitro Cold Brew Coffee",
+                    "Vanilla Syrup",
+                    "Vanilla Sweet Cream"
+                ],
+                "image": "image_url_here"
+            }
+        ],
+        "Iced Americano": [
+            {
+                "id": 37,
+                "title": "Iced Caffè Americano",
+                "description": "Espresso with cold water, served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Water",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            }
+        ],
+        "Iced Coffees": [
+            {
+                "id": 38,
+                "title": "Iced Coffee",
+                "description": "Regular brewed coffee served cold over ice.",
+                "ingredients": [
+                    "Brewed Coffee",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 39,
+                "title": "Iced Coffee with Milk",
+                "description": "Brewed coffee with cold milk, served over ice.",
+                "ingredients": [
+                    "Brewed Coffee",
+                    "Cold Milk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 40,
+                "title": "Iced Espresso",
+                "description": "Espresso served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            }
+        ],
+        "Iced Shaken Espresso": [
+            {
+                "id": 41,
+                "title": "Iced Apple Crisp Oatmilk Shaken Espresso",
+                "description": "Espresso shaken with apple crisp oatmilk and ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Apple Crisp Oatmilk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 42,
+                "title": "Oleato™ Iced Shaken Espresso with Oatmilk and Toffeenut",
+                "description": "Espresso shaken with Oleato™ oatmilk, toffeenut syrup, and ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Oleato™ Oatmilk",
+                    "Toffeenut Syrup",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 43,
+                "title": "Iced Toasted Vanilla Oatmilk Shaken Espresso",
+                "description": "Espresso shaken with toasted vanilla oatmilk and ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Toasted Vanilla Oatmilk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 44,
+                "title": "Iced Brown Sugar Oatmilk Shaken Espresso",
+                "description": "Espresso shaken with brown sugar oatmilk and ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Brown Sugar Oatmilk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 45,
+                "title": "Iced Chocolate Almondmilk Shaken Espresso",
+                "description": "Espresso shaken with chocolate almondmilk and ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Chocolate Almondmilk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 46,
+                "title": "Iced Shaken Espresso",
+                "description": "Espresso shaken with ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            }
+        ],
+        "Iced Flat Whites": [
+            {
+                "id": 47,
+                "title": "Iced Flat White",
+                "description": "Espresso with cold milk, creating a velvety and smooth iced coffee.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 48,
+                "title": "Iced Honey Almondmilk Flat White",
+                "description": "Espresso with honey almondmilk over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Honey Almondmilk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            }
+        ],
+        "Iced Lattes": [
+            {
+                "id": 49,
+                "title": "Iced Pumpkin Spice Latte",
+                "description": "Espresso with cold milk and pumpkin spice syrup, served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "Pumpkin Spice Syrup",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 50,
+                "title": "Starbucks Reserve® Iced Latte",
+                "description": "Espresso with cold milk, served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 51,
+                "title": "Starbucks Reserve® Iced Hazelnut Bianco Latte",
+                "description": "Espresso with cold milk, served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 52,
+                "title": "Iced Caffè Latte",
+                "description": "Espresso with cold milk, served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 53,
+                "title": "Iced Cinnamon Dolce Latte",
+                "description": "Espresso with cold milk and cinnamon dolce syrup, served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "Cinnamon Dolce Syrup",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 54,
+                "title": "Iced Starbucks® Blonde Vanilla Latte",
+                "description": "Espresso with cold milk and vanilla syrup, served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "Vanilla Syrup",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            }
+        ],
+        "Iced Macchiatos": [
+            {
+                "id": 55,
+                "title": "Iced Apple Crisp Oatmilk Macchiato",
+                "description": "Espresso with apple crisp oatmilk and ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Apple Crisp Oatmilk",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 56,
+                "title": "Iced Caramel Macchiato",
+                "description": "Espresso with cold milk and vanilla syrup, served over ice, topped with caramel drizzle.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "Vanilla Syrup",
+                    "Ice",
+                    "Caramel Drizzle"
+                ],
+                "image": "image_url_here"
+            }
+        ],
+        "Iced Mochas": [
+            {
+                "id": 57,
+                "title": "Iced White Chocolate Mocha",
+                "description": "Espresso with cold milk and white chocolate sauce, served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "White Chocolate Sauce",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 58,
+                "title": "Iced Caffè Mocha",
+                "description": "Espresso with cold milk and mocha sauce, served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "Mocha Sauce",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            },
+            {
+                "id": 59,
+                "title": "Starbucks Reserve® Iced Dark Chocolate Mocha",
+                "description": "Espresso with cold milk and dark chocolate sauce, served over ice.",
+                "ingredients": [
+                    "Espresso",
+                    "Cold Milk",
+                    "Dark Chocolate Sauce",
+                    "Ice"
+                ],
+                "image": "image_url_here"
+            }
+        ]
+    }
+}
+
+
+
+
+
+
