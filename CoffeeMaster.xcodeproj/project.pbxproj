@@ -15,6 +15,16 @@
 		F0E81D842AC623E4008B562C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D832AC623E4008B562C /* MenuView.swift */; };
 		F0E81D882AC62655008B562C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D872AC62655008B562C /* RootView.swift */; };
 		F0E81D8A2AC626D6008B562C /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D892AC626D6008B562C /* MainTabBarView.swift */; };
+		F0E81D972AC62D8F008B562C /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D962AC62D8F008B562C /* Coffee.swift */; };
+		F0E81D9A2AC62DBB008B562C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F0E81D992AC62DBB008B562C /* Kingfisher */; };
+		F0E81D9C2AC62FF2008B562C /* coffee_data.json in Resources */ = {isa = PBXBuildFile; fileRef = F0E81D9B2AC62FF2008B562C /* coffee_data.json */; };
+		F0E81D9E2AC63180008B562C /* starbucks_coffee_data.json in Resources */ = {isa = PBXBuildFile; fileRef = F0E81D9D2AC63180008B562C /* starbucks_coffee_data.json */; };
+		F0E81DA02AC65530008B562C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0E81D9F2AC65530008B562C /* GoogleService-Info.plist */; };
+		F0E81DAE2AC6563B008B562C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81DAD2AC6563B008B562C /* LoginView.swift */; };
+		F0E81DB42AC7292C008B562C /* CoffeeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81DB32AC7292C008B562C /* CoffeeItemView.swift */; };
+		F0E81DB62AC73031008B562C /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81DB52AC73031008B562C /* CategoryView.swift */; };
+		F0E81DB92AC73275008B562C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81DB82AC73275008B562C /* HeaderView.swift */; };
+		F0E81DBB2AC73C16008B562C /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81DBA2AC73C16008B562C /* CategoryItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +37,15 @@
 		F0E81D832AC623E4008B562C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		F0E81D872AC62655008B562C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		F0E81D892AC626D6008B562C /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		F0E81D962AC62D8F008B562C /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		F0E81D9B2AC62FF2008B562C /* coffee_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = coffee_data.json; sourceTree = "<group>"; };
+		F0E81D9D2AC63180008B562C /* starbucks_coffee_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = starbucks_coffee_data.json; sourceTree = "<group>"; };
+		F0E81D9F2AC65530008B562C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0E81DAD2AC6563B008B562C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F0E81DB32AC7292C008B562C /* CoffeeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeItemView.swift; sourceTree = "<group>"; };
+		F0E81DB52AC73031008B562C /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		F0E81DB82AC73275008B562C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F0E81DBA2AC73C16008B562C /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E81D9A2AC62DBB008B562C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +80,13 @@
 			isa = PBXGroup;
 			children = (
 				F0E81D6D2AC6223C008B562C /* CoffeeMasterApp.swift */,
+				F0E81D9B2AC62FF2008B562C /* coffee_data.json */,
+				F0E81D9D2AC63180008B562C /* starbucks_coffee_data.json */,
+				F0E81D932AC62D71008B562C /* Managers */,
 				F0E81D7D2AC62392008B562C /* Core */,
 				F0E81D6F2AC6223C008B562C /* ContentView.swift */,
 				F0E81D712AC6223C008B562C /* Item.swift */,
+				F0E81D9F2AC65530008B562C /* GoogleService-Info.plist */,
 				F0E81D732AC6223D008B562C /* Assets.xcassets */,
 				F0E81D752AC6223D008B562C /* Preview Content */,
 			);
@@ -80,11 +104,14 @@
 		F0E81D7D2AC62392008B562C /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F0E81DB72AC73260008B562C /* Components */,
+				F0E81DAC2AC6562E008B562C /* Login */,
 				F0E81D862AC62633008B562C /* TabBar */,
 				F0E81D852AC6262F008B562C /* Root */,
 				F0E81D812AC623B4008B562C /* Offers */,
 				F0E81D802AC623AD008B562C /* Scan */,
 				F0E81D7F2AC623A0008B562C /* Menu */,
+				F0E81D8B2AC62823008B562C /* Models */,
 				F0E81D7E2AC62398008B562C /* Home */,
 			);
 			path = Core;
@@ -101,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				F0E81D832AC623E4008B562C /* MenuView.swift */,
+				F0E81DB52AC73031008B562C /* CategoryView.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -135,6 +163,39 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+		F0E81D8B2AC62823008B562C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0E81D962AC62D8F008B562C /* Coffee.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F0E81D932AC62D71008B562C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F0E81DAC2AC6562E008B562C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F0E81DAD2AC6563B008B562C /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F0E81DB72AC73260008B562C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F0E81DB82AC73275008B562C /* HeaderView.swift */,
+				F0E81DB32AC7292C008B562C /* CoffeeItemView.swift */,
+				F0E81DBA2AC73C16008B562C /* CategoryItemView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +212,9 @@
 			dependencies = (
 			);
 			name = CoffeeMaster;
+			packageProductDependencies = (
+				F0E81D992AC62DBB008B562C /* Kingfisher */,
+			);
 			productName = CoffeeMaster;
 			productReference = F0E81D6A2AC6223C008B562C /* CoffeeMaster.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +243,9 @@
 				Base,
 			);
 			mainGroup = F0E81D612AC6223C008B562C;
+			packageReferences = (
+				F0E81D982AC62DBB008B562C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F0E81D6B2AC6223C008B562C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -193,8 +260,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E81D9C2AC62FF2008B562C /* coffee_data.json in Resources */,
 				F0E81D772AC6223D008B562C /* Preview Assets.xcassets in Resources */,
+				F0E81DA02AC65530008B562C /* GoogleService-Info.plist in Resources */,
 				F0E81D742AC6223D008B562C /* Assets.xcassets in Resources */,
+				F0E81D9E2AC63180008B562C /* starbucks_coffee_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +279,14 @@
 				F0E81D8A2AC626D6008B562C /* MainTabBarView.swift in Sources */,
 				F0E81D842AC623E4008B562C /* MenuView.swift in Sources */,
 				F0E81D722AC6223C008B562C /* Item.swift in Sources */,
+				F0E81DB62AC73031008B562C /* CategoryView.swift in Sources */,
 				F0E81D6E2AC6223C008B562C /* CoffeeMasterApp.swift in Sources */,
+				F0E81DB92AC73275008B562C /* HeaderView.swift in Sources */,
 				F0E81D882AC62655008B562C /* RootView.swift in Sources */,
+				F0E81DAE2AC6563B008B562C /* LoginView.swift in Sources */,
+				F0E81DBB2AC73C16008B562C /* CategoryItemView.swift in Sources */,
+				F0E81D972AC62D8F008B562C /* Coffee.swift in Sources */,
+				F0E81DB42AC7292C008B562C /* CoffeeItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +492,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F0E81D982AC62DBB008B562C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0E81D992AC62DBB008B562C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0E81D982AC62DBB008B562C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F0E81D622AC6223C008B562C /* Project object */;
 }
