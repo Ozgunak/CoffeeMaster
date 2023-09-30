@@ -73,15 +73,3 @@ struct OptionSelectionButton: View {
     OptionSelectionButton(title: "Milk", ingridient: "%2 Milk", isChanged: true, count: .constant(nil))
 }
 
-extension Color {
-    static var sbuxLightGreen: Color {
-        Color("lightGreen")
-    }
-    
-    static var sbuxDarkGreen: Color {
-        Color("darkGreen")
-    }
-    static var sbuxGold: Color {
-        Color("gold")
-    }
-}

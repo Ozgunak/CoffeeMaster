@@ -39,7 +39,7 @@ extension Coffee {
         title: "Caffe Misto",
         description: "A one-to-one mix of fresh brewed coffee and steamed milk, topped with a dollop of foam.",
         ingredients: ["Fresh brewed coffee", "Steamed milk", "Foam"],
-        imageUrl: "https://example.com/caffe_misto_image"
+        imageUrl: "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeMisto.jpg?impolicy=1by1_wide_topcrop_630"
     )
     
     static var MOCK_COFFEES = [
