@@ -12,6 +12,7 @@
 		F084FED02AC8D68500EAA963 /* SizeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084FECF2AC8D68500EAA963 /* SizeSelectionView.swift */; };
 		F084FED22AC8D76B00EAA963 /* OptionSelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084FED12AC8D76B00EAA963 /* OptionSelectionButton.swift */; };
 		F084FED52AC8EA4B00EAA963 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084FED42AC8EA4B00EAA963 /* Color+Extensions.swift */; };
+		F084FED72AC9450900EAA963 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084FED62AC9450900EAA963 /* HomeView.swift */; };
 		F0E81D6E2AC6223C008B562C /* CoffeeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D6D2AC6223C008B562C /* CoffeeMasterApp.swift */; };
 		F0E81D702AC6223C008B562C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D6F2AC6223C008B562C /* ContentView.swift */; };
 		F0E81D722AC6223C008B562C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E81D712AC6223C008B562C /* Item.swift */; };
@@ -38,6 +39,7 @@
 		F084FECF2AC8D68500EAA963 /* SizeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeSelectionView.swift; sourceTree = "<group>"; };
 		F084FED12AC8D76B00EAA963 /* OptionSelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSelectionButton.swift; sourceTree = "<group>"; };
 		F084FED42AC8EA4B00EAA963 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		F084FED62AC9450900EAA963 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F0E81D6A2AC6223C008B562C /* CoffeeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E81D6D2AC6223C008B562C /* CoffeeMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMasterApp.swift; sourceTree = "<group>"; };
 		F0E81D6F2AC6223C008B562C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		F0E81D7E2AC62398008B562C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F084FED62AC9450900EAA963 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				F0E81DB62AC73031008B562C /* CategoryView.swift in Sources */,
 				F0E81D6E2AC6223C008B562C /* CoffeeMasterApp.swift in Sources */,
 				F0E81DB92AC73275008B562C /* HeaderView.swift in Sources */,
+				F084FED72AC9450900EAA963 /* HomeView.swift in Sources */,
 				F0E81D882AC62655008B562C /* RootView.swift in Sources */,
 				F0E81DAE2AC6563B008B562C /* LoginView.swift in Sources */,
 				F0E81DBB2AC73C16008B562C /* CategoryItemView.swift in Sources */,
