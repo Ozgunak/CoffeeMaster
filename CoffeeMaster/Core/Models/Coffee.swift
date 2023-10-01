@@ -35,6 +35,8 @@ struct ProductType: Identifiable {
 }
 
 extension Coffee {
+    static var Mock_Image_Url = "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeMisto.jpg?impolicy=1by1_wide_topcrop_630"
+
     static var MOCK_COFFEE = Coffee(
         title: "Caffe Misto",
         description: "A one-to-one mix of fresh brewed coffee and steamed milk, topped with a dollop of foam.",
@@ -47,66 +49,66 @@ extension Coffee {
             title: "Caffe Misto",
             description: "A one-to-one mix of fresh brewed coffee and steamed milk, topped with a dollop of foam.",
             ingredients: ["Fresh brewed coffee", "Steamed milk", "Foam"],
-            imageUrl: "https://example.com/caffe_misto_image"
+            imageUrl: Mock_Image_Url
         ),
         Coffee(
             title: "Blonde Roast",
             description: "A mellow and soft-blended coffee with a lighter flavor profile and a gentle finish.",
             ingredients: ["Blonde roast coffee beans"],
-            imageUrl: "https://example.com/blonde_roast_image"
+            imageUrl: Mock_Image_Url
         ),
         Coffee(
             title: "Pike Place",
             description: "A smooth, well-rounded coffee with a balanced flavor, perfect for any time of day.",
             ingredients: ["Pike Place roast coffee beans"],
-            imageUrl: "https://example.com/pike_place_image"
+            imageUrl: Mock_Image_Url
         ),
         Coffee(
             title: "Dark Roast",
             description: "An intense and robust coffee with a bold flavor and a rich, full-bodied taste.",
             ingredients: ["Dark roast coffee beans"],
-            imageUrl: "https://example.com/dark_roast_image"
+            imageUrl: Mock_Image_Url
         ),
         Coffee(
             title: "Decaf Pike Place",
             description: "A decaffeinated version of our Pike Place roast, with the same smooth and balanced flavor.",
             ingredients: ["Decaffeinated Pike Place roast coffee beans"],
-            imageUrl: "https://example.com/decaf_pike_place_image"
+            imageUrl: Mock_Image_Url
         )
     ]
     
     static let CappuccinoList: [Coffee] = [
-        Coffee(title: "Cappuccino", description: "A classic Italian coffee beverage.", ingredients: ["Espresso", "Steamed Milk", "Foamed Milk"], imageUrl: ""),
+        Coffee(title: "Cappuccino", description: "A classic Italian coffee beverage.", ingredients: ["Espresso", "Steamed Milk", "Foamed Milk"], imageUrl: Mock_Image_Url),
     ]
     static let EspressoList: [Coffee] = [
-    Coffee(title: "Espresso", description: "Strong black coffee made by forcing steam through ground coffee beans.", ingredients: ["Espresso"], imageUrl: ""),
-    Coffee(title: "Espresso Con Panna", description: "Espresso topped with whipped cream.", ingredients: ["Espresso", "Whipped Cream"], imageUrl: ""),
+    Coffee(title: "Espresso", description: "Strong black coffee made by forcing steam through ground coffee beans.", ingredients: ["Espresso"], imageUrl: Mock_Image_Url),
+    Coffee(title: "Espresso Con Panna", description: "Espresso topped with whipped cream.", ingredients: ["Espresso", "Whipped Cream"], imageUrl: Mock_Image_Url),
     ]
 
     static let LatteList: [Coffee] = [
-        Coffee(title: "Pumpkin Spice Latte", description: "A fall favorite, featuring flavors of pumpkin, cinnamon, nutmeg, and clove.", ingredients: ["Espresso", "Pumpkin Spice Sauce", "Steamed Milk", "Whipped Cream"], imageUrl: ""),
-        Coffee(title: "Oleato™ Caffé", description: "A unique blend of coffee.", ingredients: ["Espresso", "Steamed Milk"], imageUrl: ""),
-        Coffee(title: "Caffè Latte", description: "A coffee-based drink made primarily from espresso and steamed milk.", ingredients: ["Espresso", "Steamed Milk"], imageUrl: ""),
-        Coffee(title: "Cinnamon Dolce Latte", description: "A sweet and spicy coffee beverage.", ingredients: ["Espresso", "Steamed Milk", "Cinnamon Dolce Syrup"], imageUrl: ""),
-        Coffee(title: "Starbucks Reserve® Latte", description: "A premium latte from Starbucks Reserve.", ingredients: ["Starbucks Reserve Espresso", "Steamed Milk"], imageUrl: ""),
-        Coffee(title: "Starbucks Reserve® Hazelnut Bianco Latte", description: "A rich and creamy latte with a hint of hazelnut.", ingredients: ["Starbucks Reserve Espresso", "Hazelnut Bianco Sauce", "Steamed Milk"], imageUrl: ""),
-        Coffee(title: "Starbucks® Blonde Vanilla Latte", description: "A lighter, subtly sweet Starbucks Blonde Espresso with vanilla flavor.", ingredients: ["Starbucks Blonde Espresso", "Vanilla Syrup", "Steamed Milk"], imageUrl: ""),
+        Coffee(title: "Pumpkin Spice Latte", description: "A fall favorite, featuring flavors of pumpkin, cinnamon, nutmeg, and clove.", ingredients: ["Espresso", "Pumpkin Spice Sauce", "Steamed Milk", "Whipped Cream"], imageUrl: Mock_Image_Url),
+        Coffee(title: "Oleato™ Caffé", description: "A unique blend of coffee.", ingredients: ["Espresso", "Steamed Milk"], imageUrl: Mock_Image_Url),
+        Coffee(title: "Caffè Latte", description: "A coffee-based drink made primarily from espresso and steamed milk.", ingredients: ["Espresso", "Steamed Milk"], imageUrl: Mock_Image_Url),
+        Coffee(title: "Cinnamon Dolce Latte", description: "A sweet and spicy coffee beverage.", ingredients: ["Espresso", "Steamed Milk", "Cinnamon Dolce Syrup"], imageUrl: Mock_Image_Url),
+        Coffee(title: "Starbucks Reserve® Latte", description: "A premium latte from Starbucks Reserve.", ingredients: ["Starbucks Reserve Espresso", "Steamed Milk"], imageUrl: Mock_Image_Url),
+        Coffee(title: "Starbucks Reserve® Hazelnut Bianco Latte", description: "A rich and creamy latte with a hint of hazelnut.", ingredients: ["Starbucks Reserve Espresso", "Hazelnut Bianco Sauce", "Steamed Milk"], imageUrl: Mock_Image_Url),
+        Coffee(title: "Starbucks® Blonde Vanilla Latte", description: "A lighter, subtly sweet Starbucks Blonde Espresso with vanilla flavor.", ingredients: ["Starbucks Blonde Espresso", "Vanilla Syrup", "Steamed Milk"], imageUrl: Mock_Image_Url),
     ]
 
     static let MacchiatoList: [Coffee] = [
-        Coffee(title: "Apple Crisp Oatmilk Macchiato", description: "A fall-inspired macchiato with flavors of apple and cinnamon.", ingredients: ["Espresso", "Apple Crisp Syrup", "Steamed Oatmilk"], imageUrl: ""),
-        Coffee(title: "Caramel Macchiato", description: "A creamy coffee drink with a caramel drizzle.", ingredients: ["Espresso", "Vanilla Syrup", "Steamed Milk", "Caramel Drizzle"], imageUrl: ""),
-        Coffee(title: "Espresso Macchiato", description: "A classic espresso drink with a dollop of foam.", ingredients: ["Espresso", "Foamed Milk"], imageUrl: ""),
+        Coffee(title: "Apple Crisp Oatmilk Macchiato", description: "A fall-inspired macchiato with flavors of apple and cinnamon.", ingredients: ["Espresso", "Apple Crisp Syrup", "Steamed Oatmilk"], imageUrl: Mock_Image_Url),
+        Coffee(title: "Caramel Macchiato", description: "A creamy coffee drink with a caramel drizzle.", ingredients: ["Espresso", "Vanilla Syrup", "Steamed Milk", "Caramel Drizzle"], imageUrl: Mock_Image_Url),
+        Coffee(title: "Espresso Macchiato", description: "A classic espresso drink with a dollop of foam.", ingredients: ["Espresso", "Foamed Milk"], imageUrl: Mock_Image_Url),
     ]
     static let MochaList: [Coffee] = [
-        Coffee(title: "Caffè Mocha", description: "A chocolate-flavored variant of a caffè latte.", ingredients: ["Espresso", "Mocha Sauce", "Steamed Milk"], imageUrl: ""),
-        Coffee(title: "Starbucks Reserve® Dark Chocolate Mocha", description: "A premium mocha experience with dark chocolate flavors.", ingredients: ["Starbucks Reserve Espresso", "Dark Chocolate Sauce", "Steamed Milk"], imageUrl: ""),
+        Coffee(title: "Caffè Mocha", description: "A chocolate-flavored variant of a caffè latte.", ingredients: ["Espresso", "Mocha Sauce", "Steamed Milk"], imageUrl: Mock_Image_Url),
+        Coffee(title: "Starbucks Reserve® Dark Chocolate Mocha", description: "A premium mocha experience with dark chocolate flavors.", ingredients: ["Starbucks Reserve Espresso", "Dark Chocolate Sauce", "Steamed Milk"], imageUrl: Mock_Image_Url),
         Coffee(title: "White Chocolate Mocha", description: "A caffè latte with additional white chocolate flavoring.", ingredients:["Espresso","White Chocolate Mocha Sauce","Steamed Milk"],imageUrl:"")
     ]
 
     static let FlatWhiteList: [Coffee] = [
-        Coffee(title: "Flat White", description: "A coffee drink consisting of espresso with microfoam.", ingredients: ["Espresso", "Steamed Milk"], imageUrl: ""),
-        Coffee(title: "Honey Almondmilk Flat White", description: "Flat white with a sweet twist of honey and almondmilk.", ingredients: ["Espresso", "Steamed Almondmilk", "Honey"], imageUrl: ""),
+        Coffee(title: "Flat White", description: "A coffee drink consisting of espresso with microfoam.", ingredients: ["Espresso", "Steamed Milk"], imageUrl: Mock_Image_Url),
+        Coffee(title: "Honey Almondmilk Flat White", description: "Flat white with a sweet twist of honey and almondmilk.", ingredients: ["Espresso", "Steamed Almondmilk", "Honey"], imageUrl: Mock_Image_Url),
     ]
 }
 extension ItemCategory {
@@ -120,7 +122,7 @@ extension ItemCategory {
                 title: "Americano",
                 description: "Strong black coffee made by forcing steam through ground coffee beans and water.",
                 ingredients: ["Hot Water", "Espresso"],
-                imageUrl: "https://example.com/caffe_misto_image"
+                imageUrl: Coffee.Mock_Image_Url
             )]
         ),
 //        Brewed Coffees

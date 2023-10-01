@@ -11,49 +11,62 @@ import Kingfisher
 struct ItemDetailView: View {
     @State private var selectedSize: SizeOptions = .grande
     @Namespace var animation
-    @State private var item: Coffee = Coffee.MOCK_COFFEE
+    var item: Coffee
+    var isIncluded: Bool {
+        item.ingredients.contains(where: { $0.lowercased().contains("milk")}) || item.ingredients.contains(where: { $0.lowercased().contains("espresso")})
+    }
+
+    init(item: Coffee) {
+        self.item = item
+    
+    }
     
     var body: some View {
         ZStack {
-            ScrollView {
-                VStack {
-                    VStack {
-                        header
-                        
-                        ItemImageView(url: item.imageUrl)
-                        
-                        Text(item.title)
-                            .font(.title2)
-                        
-                        divider(text: "Size options")
-                        
-                        options
-                        
-                        divider(text: "What's included")
-                            .padding(.top)
-
-                        includeds
-                        
-                        customizeButtonView
-                        
-                        resetButtonView
-                       
-                    }
+            VStack {
+                header
                     .padding(.horizontal)
+                    .padding(.top, 20)
 
-                    // MARK: info
+                ScrollView {
                     VStack {
-                        
-                        itemStarView
-                        
-                        descreptionView
-                        calorieView
-                        nutritionButtonView
+                        VStack {
+                            
+                            CoffeeItemView(coffee: item, isTextTitle: true)
+                            
+                            divider(text: "Size options")
+                                .padding(.top)
+                            
+                            options
+                            
+                            if isIncluded {
+                                divider(text: "What's included")
+                                    .padding(.top)
+                            }
+
+                            includeds
+                            
+                            customizeButtonView
+                            
+                            resetButtonView
+                           
+                        }
+                        .padding(.horizontal)
+
+                        // MARK: info
+                        VStack {
+                            
+                            itemStarView
+                            
+                            descreptionView
+                            calorieView
+                            nutritionButtonView
+                            
+                        }
+                        .background(Color.sbuxDarkGreen)
+                        .padding(.top)
                         
                     }
-                    .background(Color.sbuxDarkGreen)
-                    .padding(.top)
-                    
                 }
             }
         }
@@ -123,12 +136,12 @@ extension ItemDetailView {
     
     private var includeds: some View {
         Group {
-            if item.ingredients.contains(where: {$0.contains("milk")}) {
+            if item.ingredients.contains(where: {$0.lowercased().contains("milk")}) {
                 OptionSelectionButton(title: "Milk", ingridient: "Milk Foam", isChanged: false, count: .constant(nil))
                 OptionSelectionButton(title: "Milk", ingridient: "%2 Milk", isChanged: true, count: .constant(nil))
                 OptionSelectionButton(title: "Milk", ingridient: "Steamed Hot", isChanged: true, count: .constant(nil))
             }
-            if item.ingredients.contains(where: {$0.contains("espresso")}) {
+            if item.ingredients.contains(where: {$0.lowercased().contains("espresso")}) {
                 OptionSelectionButton(title: "Espresso & Shot Options", ingridient: "Signature Espresso Roast", isChanged: false, count: .constant(nil))
                 OptionSelectionButton(title: "Espresso & Shot Options", ingridient: "2 Shots + -", isChanged: false, count: .constant(2))
             }
@@ -234,7 +247,7 @@ extension ItemDetailView {
 
 
 #Preview {
-    ItemDetailView()
+    ItemDetailView(item: Coffee.MOCK_COFFEE)
 }
 
 

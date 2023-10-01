@@ -9,8 +9,13 @@ import SwiftUI
 import Kingfisher
 
 struct ItemImageView: View {
-    var imageDimentions: CGFloat = 220
+    var imageDimentions: CGFloat
     let url: String
+    
+    init(imageDimentions: CGFloat = 180, url: String) {
+        self.imageDimentions = imageDimentions
+        self.url = url
+    }
     var body: some View {
         KFImage(URL(string: url))
             .resizable()

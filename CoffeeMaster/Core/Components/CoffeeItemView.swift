@@ -9,13 +9,19 @@ import SwiftUI
 
 struct CoffeeItemView: View {
     let coffee: Coffee
+    let isTextTitle: Bool
+    
+    init(coffee: Coffee, isTextTitle: Bool = false) {
+        self.coffee = coffee
+        self.isTextTitle = isTextTitle
+    }
+    
     var body: some View {
-        VStack {
-            Circle().foregroundStyle(.green.gradient)
+        VStack {            
+            ItemImageView(imageDimentions: isTextTitle ? 200 : 160, url: coffee.imageUrl)
             Text(coffee.title)
-                .font(.subheadline)
+                .font(isTextTitle ? .title2 : .subheadline)
         }
-        .containerRelativeFrame(.horizontal, count: 2, spacing: 48.0)
     }
 }
 

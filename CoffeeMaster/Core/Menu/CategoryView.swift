@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct CategoryView: View {
+    @Environment(\.dismiss) var dismiss
     @State var categories = ItemCategory.MOCK_CATEGORIES
+    @State private var isPresented: Bool = false
 
     init(categories: [ItemCategory] = ItemCategory.MOCK_CATEGORIES) {
         self.categories = categories
@@ -23,7 +25,15 @@ struct CategoryView: View {
                     ScrollView(.horizontal) {
                         HStack(alignment: .firstTextBaseline) {
                             ForEach(category.coffees) { coffee in
-                                CoffeeItemView(coffee: coffee)
+                                Button {
+                                    isPresented.toggle()
+                                } label: {
+                                    CoffeeItemView(coffee: coffee)
+                                        .containerRelativeFrame(.horizontal, count: 2, spacing: 24.0)
+                                }
+                                .sheet(isPresented: $isPresented, content: {
+                                    ItemDetailView(item: coffee)
+                                })
                             }
                         }
                     }
@@ -33,10 +43,39 @@ struct CategoryView: View {
                     Divider()
                 }
             }
-        }  
+        }
+        
+        .navigationBarBackButtonHidden()
+        .toolbar {
+//            ToolbarItem(placement: .topBarLeading) {
+//                Image(systemName: "chevron.left")
+//                    .imageScale(.large)
+//                    .onTapGesture {
+//                        dismiss()
+//                    }
+//            }
+            ToolbarItem(placement: .topBarLeading) {
+                Image.backItem
+                    .onTapGesture {
+                        dismiss()
+                    }
+            }
+        }
+        
+    }
+}
+
+extension Image {
+    static var backItem: some View {
+        Image(systemName: "chevron.left")
+            .imageScale(.large)
+            .padding()
+            
     }
 }
 
 #Preview {
-    CategoryView()
+    NavigationStack {
+        CategoryView()
+    }
 }
